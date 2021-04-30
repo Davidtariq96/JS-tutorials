@@ -1,4 +1,4 @@
-// Usecase of using switch method
+// Usecase of using switch methods
 var firstName, age;
 age = 16;
 firstName = 'john'
@@ -37,10 +37,10 @@ else if ( jonhTeam === mikeScore) {
 
 // a function that calculate the particular age of a user
  function myAge (birthYear){
-     return 2018 - birthYear
+     return 2021 - birthYear
  }
 
- var kunleAge = myAge (1996);
+ var kunleAge = myAge (1990);
  var frankAge = myAge (1993)
 
  console.log(kunleAge,frankAge);
@@ -80,3 +80,5 @@ var bill = [120,222,300]
 // var tipArray = [];
 // console.log(tipCal([0,1,2]))
 
+var myDate = new Date()
+console.log(myDate.getFullYear())
